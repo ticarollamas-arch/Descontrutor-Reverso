@@ -49,7 +49,7 @@ Abra `/app`, escolha o provedor, envie o APK ou ZIP e gere o relatório. Para pu
 ## Estrutura
 
 ```
-server.ts               API Express (upload + análise com Gemini)
+server.ts               API Express (upload + análise com o provedor escolhido)
 backend-analyzer.ts     extração com apktool e JADX
 src/                    front-end React (landing, app, páginas legais)
 src/prompts/            prompts de sistema da análise
